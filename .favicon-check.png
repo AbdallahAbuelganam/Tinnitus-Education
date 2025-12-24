@@ -1,0 +1,28 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+      <script type="module" src="/@vite/client"></script>
+
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Educational Tinnitus Website</title>
+      <!-- Favicon: place your favicon files under the 'public' folder or project root served statically -->
+      <link rel="icon" type="image/png" href="/favicon.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+      <!-- Optional: 192x192 for Android/Chrome homescreen -->
+      <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+      <!-- Microsoft tile -->
+      <meta name="msapplication-TileImage" content="/favicon-180.png" />
+    </head>
+
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
