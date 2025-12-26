@@ -259,7 +259,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       {/*  */}
-      <section className="mb-12">
+      <section className="mb-12 max-w-7xl mx-auto px-4">
         <h2 className="text-gray-900 mb-6">
           Tinnitus common myths & facts
         </h2>
